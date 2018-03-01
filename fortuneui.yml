@@ -1,6 +1,9 @@
+eureka:
+  client:
+    shouldRegisterWithEureka: false
 fortuneService:
   scheme: http
-  address: fortuneservice-wise-wallaby.ausvpc01.pcf.dell.com
+  address: fortuneservice
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
 
