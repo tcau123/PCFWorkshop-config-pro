@@ -1,0 +1,6 @@
+fortuneService:
+  scheme: http
+  address: fortuneservice-wise-wallaby.ausvpc01.pcf.dell.com
+  randomFortunePath: api/fortunes/random
+  allFortunesPath: api/fortunes/all
+
